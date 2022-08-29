@@ -1,0 +1,30 @@
+body{
+    background-color: ghostwhite;
+}
+.center_box{
+    border: 1px;
+    border-radius: 10px; border-color: lightgrey; border-style: solid;
+    margin-left: 400px;  margin-right: 400px; 
+    background-color: white;
+    padding: 20px;
+}
+
+h2{
+    color: darkslategray;
+}
+p{
+    color: darkslategray;
+}
+
+button{
+   border: 1px;
+   background-color: white;
+   padding: 10px;
+   border-radius: 10px; border-color: lightgrey; border-style: solid;
+   font-size: 12pt;
+}
+
+button:hover{
+    border-color: cornflowerblue;
+    background-color: aliceblue;
+}
