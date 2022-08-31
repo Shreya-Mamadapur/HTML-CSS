@@ -1,0 +1,13 @@
+body{
+    background-color: darkslategray;
+}
+button{
+    padding: 10px;
+    background-color: bisque;
+    font-family: fantasy;
+    margin-left: 500px; margin-top: 250px;
+}
+
+p{
+    margin-left: 1000px;
+}
