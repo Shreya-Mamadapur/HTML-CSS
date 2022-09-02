@@ -1,2 +1,3 @@
 # HTML-CSS-JS
-This repository is just a dump of my learnings.
+Check this.(https://github.com/Shreya-Mamadapur/Shreya-Mamadapur.github.io)
+
