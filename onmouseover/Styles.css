@@ -1,0 +1,64 @@
+body{
+    background-color: azure;
+}
+
+    .container{
+        background-color: white;
+    }
+
+        ul{
+            list-style: none;
+            padding: 0%;
+            align-items: center;
+        }
+            li{
+                border: solid 0.1rem lightgray;
+                float: left;
+                border-radius: 50%;
+                background-color: gray;
+            }
+        .thumbnails{
+            width: 15%;
+            float: left;
+            
+        }
+        .thumbnails img{
+            height: 150px; width: 150px;
+            border-radius: 50%;
+        }     
+
+
+    .content{
+        background-color: black;
+    }
+        .titleDescription{
+            background-color: rosybrown;
+            width: 85%;
+            float: right;
+            text-align: center;
+        }
+            .mainImage{
+                margin-top: 1%;
+                float: left;
+            }
+            
+            .mainImage img{
+                border-radius: 10%;
+            }
+            
+            .houseText{
+                margin-top: 1%;
+                float: right;
+                text-align: justify;
+                width:48%;
+                padding: 2%;
+                background-color: burlywood;
+            }
+
+
+
+
+
+
+
+
