@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      
+    <div class="container-sm p-5 m-5 bg-dark text-white">
+        <h1>Container</h1>
+        <p>Container gives a fixed width, whereas container-fluid gives full screen device-width.<br>
+             You can also add bg-"color", padding (p-5) and margin (my-4) etc..<br>
+            container, col, row </p>
+    </div>
+
+    <div class="progress"><div class="progress-bar" ></div></div>
+
+    <div class="row p-3 bg-dark ">
+        <h2 style="color: white;">Grid-Basic</h2>
+        <div class="col-sm-4 my-1 bg-light" >
+            <h2>Card 1</h2>
+            <p>
+                Press <kbd>ctrl+p</kbd> to print.<br><br>
+                I want to <mark>mark</mark> something<br>
+                I want <p class = 'display-1'>biggest</p> font.               
+            </p>
+        </div>
+        <div class="col-sm-4 my-1 bg-light">
+            <h2>Card 2</h2>
+            <pre><abbr title="Cascaded Style Sheets">CSS</abbr> is used to style web pages.
+Instead of using br tag for every line, 
+we can just embed the entire paragraph in pre tag.
+
+NOTE: 
+Every space will appear as typed.
+Usually pre is used for displaying mutliple line of codes.
+                
+                <footer class="blockquote-footer">Internet</footer>
+            </pre>
+        </div>
+
+        <div class="col-sm-4 my-1 bg-light">
+            <h2>Card 3</h2>
+            <p>Text/bg colors used in bootstrap have some meaning:
+                <p class="text-muted">This text is muted. appaers gray</p>
+                <p class="text-primary">This text is important. blue</p>
+                <p class="text-success">This text indicates success. green</p>
+                <p class="text-info">This text represents some information. skyblue</p>
+                <p class="text-warning">This text represents a warning. mustard</p>
+                <p class="text-danger">This text represents danger. red</p>
+                <p class="text-secondary">Secondary text. also gray</p>
+                <p class="text-dark">This text is dark grey.</p>
+                <p class="text-body">Default body color.</p>
+                <p class="text-light bg-dark">This text is light grey with dark bg.</p>
+                <p class="text-white-50 bg-success">This text is white(50% opacity) with success bg.</p>
+
+            </p>
+        </div>
+
+        <div class="alert alert-success alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            This is just some text in the div classed as dismissable success-alert.
+        </div>
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">Something</li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+        </div>
+ 
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
